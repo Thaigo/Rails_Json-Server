@@ -1,0 +1,9 @@
+<%= form_tag home_index_path, method: :post do %>
+  First Name: <%= text_field_tag :firstName%> <br/>
+  Last Name: <%= text_field_tag :lastName%> <br/>
+  Email: <%= text_field_tag :email%> <br/>
+
+  <%= submit_tag "save"%>
+<% end %>
+
+

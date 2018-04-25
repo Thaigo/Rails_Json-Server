@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "firstName": "John",
+      "lastName": "Galt",
+      "email": "john@gmail.com",
+      "age": 33,
+      "productId": "1"
+    },
+    {
+      "id": "3",
+      "firstName": "Luiza",
+      "lastName": "Galt",
+      "email": "luiza@gmail.com",
+      "age": 23,
+      "productId": "2"
+    },
+    {
+      "utf8": "✓",
+      "_method": "put",
+      "authenticity_token": "ARbWQRswJ+y8pvjbVUEcwFmiTO3s4qYuJZ5cpjqNB+aV9ol6lwLKvooEs/w+qplfoRqpI9eDsiuKGuKjxQinpQ==",
+      "firstName": "teste",
+      "lastName": "Galt",
+      "email": "eita@email.com",
+      "commit": "update",
+      "controller": "home",
+      "action": "update",
+      "id": "D8gOGvD"
+    },
+    {
+      "utf8": "✓",
+      "authenticity_token": "f4pYm0juCDmeydfPQKZ8TW4ihut4BLxr9c92RDzTlnZj+m0RFCkHaDzFLg+xI5fw2LGdwNmlga5cH02QwhQkvA==",
+      "firstName": "asas",
+      "lastName": "asas",
+      "email": "asas@email.com",
+      "commit": "save",
+      "controller": "home",
+      "action": "create",
+      "id": "I~AYvle"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "SHARP Z2 4G",
+      "description": "SHARP Z2 Smartphone 4G LTE Telefone 5.5inch FHD Screen 1920 * 1080pixels MTK6797 Helio X20 Deca Core Android 6.0 4GB RAM 32GB ROM 8 + 16MP Câmera 3000mAh Bateria Fingerprin"
+    },
+    {
+      "id": "2",
+      "name": "Smart TV LED 3",
+      "description": "Transforme aquele momento em frente à TV em algo bem mais interessante com a Smart TV UN32J4300AGXZD da Samsung. Ela oferece um mundo especial de funções e aplicativos"
+    },
+    {
+      "id": "3",
+      "name": "Notebook",
+      "description": "O notebook Acer Aspire 5 foi pensado para quem precisa de alta performance e velocidade em qualquer lugar. Poderoso, vem"
+    }
+  ]
+}

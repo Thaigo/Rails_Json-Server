@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<%= link_to "New User", new_home_path %>
+
+<%if @users.present? %>
+  <p>List Users</p>
+  <table width="100%">
+    <tr>
+      <td>ID</td>
+      <td>first_name</td>
+      <td>last_name</td>
+      <td>email</td>
+      <td>Action</td>
+    </tr>
+    
+    <%@users.each do |u|%>
+    <tr>
+      <td><%=u[:id]%></td>
+      <td><%=u[:firstName]%></td>
+      <td><%=u[:lastName]%></td>
+      <td><%=u[:email]%></td>      
+      <td>
+        <%= link_to "Edit", edit_home_path(u[:id]) %> |
+        <%= link_to "Delete", home_path(u[:id]), method: :delete, data: { confirm: 'Are you sure?' } %>
+      </td>
+    </tr>
+   <%end%>
+  </table>
+<%else%>
+  <p>No User is Found</p>
+<%end%>
